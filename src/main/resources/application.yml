@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: fluxshare
+logger:
+  levels:
+    com.tranxfer: DEBUG
+    io.micronaut.security: DEBUG
+    io.micronaut.http: DEBUG
+    io.reactor: DEBUG
