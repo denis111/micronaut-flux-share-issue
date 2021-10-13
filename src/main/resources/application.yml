@@ -1,6 +1,8 @@
 micronaut:
   application:
     name: fluxshare
+  server:
+    max-request-size: 128MB
 logger:
   levels:
     com.tranxfer: DEBUG
